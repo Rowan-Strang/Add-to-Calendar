@@ -1,9 +1,9 @@
-# Add-to-Calendar
-iOS Shortcut/Siri Extension for quickly adding events on screen to your Calendar
+# Add to Calendar
+An iOS Shortcut for quickly adding the contents of your screen to your Calendar
 
 [Direct Download](https://www.icloud.com/shortcuts/1f2fd3a624224184b77f2c4313a90391)
 
-Whenever you're looking at something on your iPhone, iPad, or Mac that represents an event, such as a concert poster, email booking confirmation, webpage, or the plans you've made with a friend in a messenger app, just invoke Siri and say: **“Add to Calendar”** to run this shortcut.
+Whenever you're looking at something on your iPhone, iPad, or Mac that represents an event, such as a concert poster, email booking confirmation, webpage, or even the plans you've made with a friend in a messenger app, just invoke Siri and say: **“Add to Calendar”** to run this shortcut.
 
 The shortcut will:
 
