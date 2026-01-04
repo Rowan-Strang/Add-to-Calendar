@@ -1,7 +1,7 @@
 # Add to Calendar
 An iOS Shortcut for quickly adding the contents of your screen to your Calendar
 
-[Direct Download](https://www.icloud.com/shortcuts/1f2fd3a624224184b77f2c4313a90391)
+[Direct Download](https://www.icloud.com/shortcuts/bc7ca03a0d644ed4a76db02697855ba5)
 
 Whenever you're looking at something on your iPhone, iPad, or Mac that represents an event, such as a concert poster, email booking confirmation, webpage, or even the plans you've made with a friend in a messenger app, just invoke Siri and say: **“Add to Calendar”** to run this shortcut.
 
@@ -12,12 +12,12 @@ The shortcut will:
 3. Compose a calendar event for your review before saving  
 
 You can also run this shortcut from the Share Sheet to send a screenshot or image you already have.
-Or, if you start within the Shortcuts app, you'll be presented with a device-specific contextual menu.
+Or, if you start within the Shortcuts app, you'll be presented with a menu.
 
 
 to set up and run this shortcut you will need an API key from OpenAI
 if you don't have one, [get started here](https://platform.openai.com/signup) or use this [step by step guide on YouTube](https://youtu.be/OB99E7Y1cMA?si=VOxTPZqEyVJ099PH)
-beyond that, this shortcut is very easy to setup and use. (but please do reach out If you get confused)
+beyond that, this shortcut is very easy to setup and use.
 
 By calling the ChatGPT API, this shortcut leverages structured outputs for clean and reliable results.  
 As long as the event title is visible (or can be inferred), and a start time and/or location are present in the screenshot, the shortcut performs reliably.  
