@@ -36,6 +36,6 @@ If a date or start time can’t be found, you’ll be prompted to provide one ma
 - Attaches the screenshot directly to the calendar event so you'll always have a record of the original event  
 - Timezone support — events are created with accurate time zone information  
 - Contextual menus — when run from the Shortcuts app directly, you're presented with a device-specific menu where you can upload screenshots, open the camera, report bugs, or navigate elsewhere before continuing  
-- Smart and easy updating — once an event is added to your calendar, the shortcut checks RoutineHub for updates. If a newer version is available, you’ll be prompted to download it. Your API key is copied to your clipboard with a short expiry, and the updated shortcut link is opened automatically — making upgrades fast and effortless
+- Smart and easy updating — once an event is added to your calendar, the shortcut checks GitHub for updates.
 
 > ⚠️ The screenshot is shared with ChatGPT. Please ensure you’re comfortable with its contents before running the shortcut.
