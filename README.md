@@ -19,10 +19,9 @@ if you don't have one, [get started here](https://platform.openai.com/signup) or
 
 ## Key Features
 
-- Works seamlessly with Siri — invoke the shortcut by voice or by typing to Siri from anywhere in the system to instantly build a new event
-- Fully self-contained — no reliance on third-party shortcut apps or additional helper shortcuts; everything runs in one seamless, easy to set up, native experience
+- Works seamlessly with Siri
 - Adds a relevant emoji to the event title
-- Share Sheet support — run the shortcut directly from any existing image or screenshot 
+- Share Sheet support to easily work with images or screenshots 
 - support for multi-event output, and multi image input
 - Includes a summary and booking reference (if found) in the notes  
 - Uses web search to find additional context like location address or event duration (if they aren't found in the screenshot)
