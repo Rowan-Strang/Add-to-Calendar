@@ -15,9 +15,7 @@ When you run it from the shortcuts app, you'll see a menu with ways to continue 
 
 to set up and run this shortcut you will need an API key from OpenAI
 if you don't have one, [get started here](https://platform.openai.com/signup) or use this [step by step guide on YouTube](https://youtu.be/OB99E7Y1cMA?si=VOxTPZqEyVJ099PH)
-beyond that, this shortcut is very easy to setup and use.
-
-
+once you have an API key, the first time you run the shortcut you'll be prompted to provide it.
 
 ## Key Features
 
