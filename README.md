@@ -3,25 +3,21 @@ An iOS Shortcut for quickly adding the contents of your screen to your Calendar
 
 [Get the Shortcut here.](https://www.icloud.com/shortcuts/5510b304e9a04868899a822ac8419a00)
 
-Whenever you're looking at something on your iPhone, iPad, or Mac that represents an event, such as a concert poster, email booking confirmation, webpage, or even the plans you've made with a friend in a messenger app, just invoke Siri and say: **“Add to Calendar”** to run this shortcut.
+Whenever you're looking at something on your iPhone, iPad, or Mac that represents an event, such as a concert poster, email booking confirmation, webpage, or even the plans you've made with a friend in a messenger app, just invoke Siri and say: **“Add to Calendar”**. 
 
 The shortcut will:
 
 1. Take a screenshot  
-2. Send it to ChatGPT to extract event details  
+2. Send it to OpenAI for ChatGPT with instructions  
 3. Compose a calendar event for your review before saving  
 
-You can also run this shortcut from the Share Sheet to send a screenshot or image you already have.
-Or, if you start within the Shortcuts app, you'll be presented with a menu.
-
+When you run it from the shortcuts app, you'll see a menu with ways to continue and preferences to explore
 
 to set up and run this shortcut you will need an API key from OpenAI
 if you don't have one, [get started here](https://platform.openai.com/signup) or use this [step by step guide on YouTube](https://youtu.be/OB99E7Y1cMA?si=VOxTPZqEyVJ099PH)
 beyond that, this shortcut is very easy to setup and use.
 
-By calling the ChatGPT API, this shortcut leverages structured outputs for clean and reliable results.  
-As long as the event title is visible (or can be inferred), and a start time and/or location are present in the screenshot, the shortcut performs reliably.  
-If a date or start time can’t be found, you’ll be prompted to provide one manually.
+
 
 ## Key Features
 
@@ -29,13 +25,11 @@ If a date or start time can’t be found, you’ll be prompted to provide one ma
 - Fully self-contained — no reliance on third-party shortcut apps or additional helper shortcuts; everything runs in one seamless, easy to set up, native experience
 - Adds a relevant emoji to the event title
 - Share Sheet support — run the shortcut directly from any existing image or screenshot 
-- multi-event output (when relevant)
-- Multi image input (from the share-sheet or menu)
+- support for multi-event output, and multi image input
 - Includes a summary and booking reference (if found) in the notes  
-- Uses web search to find additional context like location address or event duration (if they aren't found in the screenshot)  
-- Attaches the screenshot directly to the calendar event so you'll always have a record of the original event  
-- Timezone support — events are created with accurate time zone information  
-- Contextual menus — when run from the Shortcuts app directly, you're presented with a device-specific menu where you can upload screenshots, open the camera, report bugs, or navigate elsewhere before continuing  
-- Smart and easy updating — once an event is added to your calendar, the shortcut checks GitHub for updates.
+- Uses web search to find additional context like location address or event duration (if they aren't found in the screenshot)
+- if a start time or date cant be identified or inferred the shortcut will prompt you to supply them
+- The Screenshot that is sent to chatGPT is also attatched to the newly created calendar event. This is great for barcodes and event tickets
+- Smart, Easy, and Unobtrusive update checks. API keys and User Preferences are stored in your iCloud Drive within the Shortucts folder. this way updates can be made to the shortcut without requiring any reconfiguring. Update checks run right at the end of the shortcut so they never get in the way of adding events and if there's no update to downloaded you'll never even notice they ran.
 
 > ⚠️ The screenshot is shared with ChatGPT. Please ensure you’re comfortable with its contents before running the shortcut.
