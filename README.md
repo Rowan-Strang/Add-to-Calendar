@@ -3,7 +3,7 @@ An iOS Shortcut for quickly adding the contents of your screen to your Calendar
 
 [Get the Shortcut here.](https://www.icloud.com/shortcuts/77505cb6f9854801a5cfd77ab8781b2f)
 
-**Version 4.0** Adds a model selector, and with in support for Gemini and the Apple Intelligence 'Use Model' Shortcuts action
+**Version 4.0** Adds a model selector, with support for Gemini and the Apple Intelligence 'Use Model' Shortcuts action (ChatGPT via API is the Flagship Experience)
 
 Whenever you're looking at something on your iPhone, iPad, or Mac that represents an event, such as a concert poster, email booking confirmation, webpage, or even the plans you've made with a friend in a messenger app, just invoke Siri and say: **“Add to Calendar”**. 
 
